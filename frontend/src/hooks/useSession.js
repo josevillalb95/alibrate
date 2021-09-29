@@ -5,8 +5,6 @@ import sendRegistro from '../services/registro'
 export default function useSession() {
     const {jwt,setJWT,userLogin,setUserLogin}=useContext(SessionContext);
     const [msjServer,setMsjServer]=useState("")
-
-
     const eliminarSession=() => {
         setJWT("")
         window.sessionStorage.removeItem("jwt")
