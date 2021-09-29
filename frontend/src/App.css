@@ -1,0 +1,479 @@
+.containerLogin .containerLogo{
+  background-image: url(https://cdn.alibrate.com/images/register/bg-login.png);
+  padding-bottom: 71%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.containerLogin .containerLogo .logo {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLogin .containerLogo .logo > img {
+  width: 50%;
+}
+.containerLogin .containerLogo .logo > p{
+  font-size: 14px;
+  color: white;
+}
+
+
+.categoriasLibros .active {
+  color: #1c4864 !important;
+  position: relative;
+}
+
+.categoriasLibros .active::before{
+  content: "";
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #1c4864;
+}
+
+
+.line-short {
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+.divider {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: center;
+}
+.divider span {
+  color: #999;
+  margin: 10px;
+  font-size: 12px;
+}
+.divider .line {
+  height: 1px;
+  background: #d3d5db;
+  flex: 1;
+}
+.containerLogin .formLogin  {
+  margin: 0 15px;
+  box-shadow: 0 8px 13px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: -20%;
+  z-index: 2;
+  position: relative;
+}
+.containerLogin  .registro{
+  font-size: 18px;
+  color: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.containerLogin  .registro a{
+  font-weight: 600;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #1c4865;
+}
+.containerLogin .formLogin > *{
+  margin-bottom: 10px;
+
+}
+.containerLogin .formLogin  span.forgotPass {
+  color: #02a7e1;
+  text-align: center;
+  display: block;
+}
+
+.containerLogin .formLogin  form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.containerLogin .formLogin  form > span{
+  font-size: 18px;
+  color: #1c4865;
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+.containerLogin  .formLogin  form> input {
+  min-height: 50px;
+  border: 1px solid #f6f7f9;
+  background-color: #f6f7f9;
+  border-radius: 8px;
+  color: #1c4865;
+  font-size: 16px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+.containerLogin  .formLogin .buttonLogin{
+  border-style: solid;
+  min-height: 50px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  color: #fff;
+
+}
+.buttonLogin.facebook{
+  background-color: #0074fb;
+  border-color: #3292d2;
+  box-shadow: 0 3px 10px 0 rgb(0 116 251 / 55%);
+
+}
+.containerLogin  .formLogin  form >  button{
+  background-color: #1c4865;
+  border-color: #1c4865;
+}
+
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c4865;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+}
+
+.bottomNav > a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+.bottomNav > a > svg {
+  font-size: 24px;
+} 
+.bottomNav > a > span {
+  font-size: 70%;
+  margin-top: 3px;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  background: #1c4864;
+  padding: 10px 0px;
+  color: white;
+  align-items: center;
+}
+.topNav > svg {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.buscador {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+.buscador > form {
+  height: 34px;
+}
+.buscador > form input{
+    height: 100%;
+    padding: 0px;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.buscador  > span {
+  width: 50px;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background:rgba(0,0,0,.9);
+  z-index: 2;
+  display:flex;
+}
+
+.menu > .lista {
+  background: white;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.menu > .lista > a {
+  color: #1c4865;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 20px 0 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu > .lista > a > svg {
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+.menu > .lista > .itemCardUser {
+  display: flex;
+  color: white;
+  background-color: #1c4865;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+
+.menu > .lista > .itemCardUser > img {
+  width: 60px;
+  border-radius: 100%;
+  margin: 0 15px;
+}
+
+.menu > .lista > .itemCardUser > span {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+.menu > .lista > .listaBottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  border-top:1px solid #999;
+}
+
+.menu > .lista > .listaBottom > button {
+  background: white;
+  margin: 10px 0px 10px 10px;
+  border: none;
+  outline: none;
+  text-align: start;
+  padding: 0;
+  color: #1c4865;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu > .lista > .listaBottom > button  svg {
+  margin-right: 10px;
+  font-size: 26px;
+}
+
+
+.listBooks{
+  min-height: 600px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  background: whitesmoke;
+}
+.libroItem {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid hsla(0,0%,80%,.5);
+  box-shadow: 0 0 10px 2px hsl(0deg 0% 85% / 15%);
+  margin: 0 10px 10px 10px;
+  position: relative;
+}
+.libroItem > img {
+  width: 120px;
+}
+.libroItem > .descripcion {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.libroItem > .descripcion  > svg
+{
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  top: 10px;
+  color: #999;
+}
+.min{
+  color: #999;
+  font-size: 12px;
+  display: block;
+}
+.clasificacion-blue{
+  margin-left: 2px;
+  font-size: 11px;
+  color: #1c4865;
+}
+.titulo{
+  font-size: 16px;
+  line-height: 17px;
+  text-overflow: ellipsis;
+  color: #1c4865;
+  font-weight: bold;
+}
+.libroItem > .descripcion > span.titulo {
+  max-height: 34px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  max-width: 80%;
+  margin: 5px 0px;
+}
+
+
+.packStar {
+  display: flex;
+  margin: 10px 0px 0px;
+}
+.packStar > svg {
+  color: #1c4864;
+  font-size: 21px;
+}
+
+
+.selectEstado{
+  color: #1c4864;
+  background: transparent;
+  border-color: #1c4864;
+  padding: 6px 15px 6px 8px;
+  border: 1px solid;
+  border-radius: 6px;
+  background-image: linear-gradient(45deg, transparent 50%, #fafaff 50%), linear-gradient(135deg, white 50%, transparent 50%), linear-gradient(to right, #1c4864, #1c4864);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+
+.bibliotecaHeader {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.bibliotecaHeader> img{
+  width: 70px;
+  border-radius: 100%;
+  margin: 10px 10px 10px 0;
+}
+
+.bibliotecaHeader > div{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bibliotecaHeader > div > span{
+  margin:2px 0px;
+}
+
+.bibliotecaHistorial{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bibliotecaIconos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bibliotecaIconos > a {
+  background-color: #e6f6fc;
+  color: #02a7e1;
+  font-weight: 600;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 15px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+.bibliotecaIconos > a > svg {
+  margin-right: 3px;
+}
+
+.categoriasLibros {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #cacaca;
+  justify-content: space-between;
+}
+
+.categoriasLibros > span {
+  min-width: 120px;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sinLibro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sinLibro > svg {
+  font-size: 63px;
+  margin: 20px 0;
+}
+
+
+
+button.v1{
+  background: none;
+    outline: none;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    color: #1c4864;
+} 
+
+.dark-grey{
+  color: #444 !important;
+}
+.dark-blue{
+  color:#1c4865;
+}
+.light-blue {
+  color: #02a7e1;
+}
